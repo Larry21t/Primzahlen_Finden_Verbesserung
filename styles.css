@@ -1,0 +1,44 @@
+td {
+    border: 2px solid black;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+select {
+    width: 30mm;
+}
+
+#fenster1 {
+    opacity: 0.8;
+    height: 100px;
+    width: 300px;
+    top: 430px;
+    left: 350px;
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(238, 255, 0);
+    text-align: center;
+
+}
+
+.primzahl{
+    background-color: rgb(5, 133, 5);
+}
+
+.primzahlInFalscherReihenfolge{
+    background-color: orange;
+}
+
+.keinePrimzahl{
+    background-color: red;
+}
+
+.rahmen{
+    border: 5px outset greenyellow;
+}
+
